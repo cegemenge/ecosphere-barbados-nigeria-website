@@ -8,10 +8,10 @@ Open `index.html` in a browser. The page uses plain HTML, CSS and JavaScript and
 
 ## Calculator
 
-- Customers enter a cash amount in USD or BBD and enter the USD/NGN rate they have looked up on the linked Central Bank of Nigeria page.
+- Customers enter a cash amount in USD or BBD and enter the USD/NGN rate they have looked up on the linked Aboki Forex website.
 - The estimate applies a 4% fee to both USD and BBD cash, and displays the service fee in US dollars. BBD is converted at BBD 2 = US$1. The fee's NGN equivalent is deducted to calculate the recipient payout.
 - The WhatsApp button opens a prefilled message to the business number with the amount, entered rate, fee and estimated payout. The customer must tap **Send** in WhatsApp.
-- The entered CBN rate is customer supplied and is not automatically refreshed or verified by this website. It is an estimate, not a guaranteed settlement amount.
+- The entered Aboki Forex rate is customer supplied and is not automatically refreshed or verified by this website. It is an estimate, not a guaranteed settlement amount.
 
 ## Before launch
 

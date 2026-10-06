@@ -42,7 +42,7 @@ function updateEstimate() {
   }
 
   if (!Number.isFinite(rate) || rate <= 0) {
-    payout.textContent = 'Enter the CBN rate';
+    payout.textContent = 'Enter the Aboki Forex rate';
     payout.classList.add('muted');
     breakdown.hidden = true;
     disableQuote();
@@ -64,7 +64,7 @@ function updateEstimate() {
   const message = [
     'Hello, I used the ECOSPHERE website payout estimator.',
     `Cash amount: ${formatNumber(amount)} ${currency}`,
-    `USD/NGN rate entered: ${formatNaira(rate)} per US$1 (from CBN)`,
+    `USD/NGN rate entered: ${formatNaira(rate)} per US$1 (Aboki Forex reference entered by customer)`,
     `Estimated amount before fee: ${formatNaira(gross)}`,
     `Service fee (${feePercent * 100}%): ${formatUsd(feeUsd)}`,
     `Estimated fee equivalent at entered rate: ${formatNaira(feeNgn)}`,
